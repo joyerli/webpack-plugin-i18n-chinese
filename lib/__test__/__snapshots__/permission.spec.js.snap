@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`多语言信息收集插件 单个组件 1`] = `
+"{
+  \\"webpack-plugin-i18n-chinese/dist/static/__tmp.js\\": \\"\\",
+  \\"webpack-plugin-i18n-chinese/dist/static/intl-metadata.json\\": \\"{\\\\n  \\\\\\"i18n\\\\\\": {\\\\n    \\\\\\"oc.pro.测试1-1\\\\\\": \\\\\\"测试1\\\\\\",\\\\n    \\\\\\"oc.pro.测试1-2\\\\\\": \\\\\\"测试2\\\\\\",\\\\n    \\\\\\"oc.pro.customer\\\\\\": \\\\\\"测试3\\\\\\"\\\\n  }\\\\n}\\"
+}"
+`;
+
+exports[`多语言信息收集插件 单个页面 1`] = `
+"{
+  \\"webpack-plugin-i18n-chinese/dist/static/__tmp.js\\": \\"\\",
+  \\"webpack-plugin-i18n-chinese/dist/static/intl-metadata.json\\": \\"{\\\\n  \\\\\\"i18n\\\\\\": {\\\\n    \\\\\\"oc.base.测试1-1\\\\\\": \\\\\\"测试1\\\\\\",\\\\n    \\\\\\"oc.base.测试1-2\\\\\\": \\\\\\"测试2\\\\\\",\\\\n    \\\\\\"oc.base.customer\\\\\\": \\\\\\"测试3\\\\\\"\\\\n  }\\\\n}\\"
+}"
+`;
+
+exports[`多语言信息收集插件 多个组件 1`] = `
+"{
+  \\"webpack-plugin-i18n-chinese/dist/static/__tmp.js\\": \\"\\",
+  \\"webpack-plugin-i18n-chinese/dist/static/intl-metadata.json\\": \\"{\\\\n  \\\\\\"i18n\\\\\\": {\\\\n    \\\\\\"oc.base.测试1-1\\\\\\": \\\\\\"测试1\\\\\\",\\\\n    \\\\\\"oc.base.测试1-2\\\\\\": \\\\\\"测试2\\\\\\",\\\\n    \\\\\\"oc.base.customer\\\\\\": \\\\\\"测试3\\\\\\",\\\\n    \\\\\\"oc.base.测试2-1\\\\\\": \\\\\\"测试2-1\\\\\\",\\\\n    \\\\\\"oc.base.测试2-2\\\\\\": \\\\\\"测试2-2\\\\\\"\\\\n  }\\\\n}\\"
+}"
+`;
+
+exports[`多语言信息收集插件 多个页面 1`] = `
+"{
+  \\"webpack-plugin-i18n-chinese/dist/static/__tmp.js\\": \\"\\",
+  \\"webpack-plugin-i18n-chinese/dist/static/intl-metadata.json\\": \\"{\\\\n  \\\\\\"i18n\\\\\\": {\\\\n    \\\\\\"oc.base.测试1-1\\\\\\": \\\\\\"测试1\\\\\\",\\\\n    \\\\\\"oc.base.测试1-2\\\\\\": \\\\\\"测试2\\\\\\",\\\\n    \\\\\\"oc.base.customer\\\\\\": \\\\\\"测试3\\\\\\",\\\\n    \\\\\\"oc.base.测试2-1\\\\\\": \\\\\\"测试2-1\\\\\\",\\\\n    \\\\\\"oc.base.测试2-2\\\\\\": \\\\\\"测试2-2\\\\\\"\\\\n  }\\\\n}\\"
+}"
+`;
+
+exports[`多语言信息收集插件 生成csv文件 1`] = `
+"{
+  \\"webpack-plugin-i18n-chinese/dist/static/__tmp.js\\": \\"\\",
+  \\"webpack-plugin-i18n-chinese/dist/static/intl-metadata.json\\": \\"{\\\\n  \\\\\\"i18n\\\\\\": {\\\\n    \\\\\\"oc.pro.测试1-1\\\\\\": \\\\\\"测试1\\\\\\",\\\\n    \\\\\\"oc.pro.测试1-2\\\\\\": \\\\\\"测试2\\\\\\",\\\\n    \\\\\\"oc.pro.customer\\\\\\": \\\\\\"测试3\\\\\\",\\\\n    \\\\\\"oc.base.测试1-1\\\\\\": \\\\\\"测试1\\\\\\",\\\\n    \\\\\\"oc.base.测试1-2\\\\\\": \\\\\\"测试2\\\\\\",\\\\n    \\\\\\"oc.base.customer\\\\\\": \\\\\\"测试3\\\\\\"\\\\n  }\\\\n}\\",
+  \\"webpack-plugin-i18n-chinese/dist/static/intl-metadata.csv\\": \\"\\\\\\"模块\\\\\\",\\\\\\"编码\\\\\\",\\\\\\"默认值\\\\\\"\\\\n\\\\\\"i18n\\\\\\",\\\\\\"oc.pro.测试1-1\\\\\\",\\\\\\"测试1\\\\\\"\\\\n\\\\\\"i18n\\\\\\",\\\\\\"oc.pro.测试1-2\\\\\\",\\\\\\"测试2\\\\\\"\\\\n\\\\\\"i18n\\\\\\",\\\\\\"oc.pro.customer\\\\\\",\\\\\\"测试3\\\\\\"\\\\n\\\\\\"i18n\\\\\\",\\\\\\"oc.base.测试1-1\\\\\\",\\\\\\"测试1\\\\\\"\\\\n\\\\\\"i18n\\\\\\",\\\\\\"oc.base.测试1-2\\\\\\",\\\\\\"测试2\\\\\\"\\\\n\\\\\\"i18n\\\\\\",\\\\\\"oc.base.customer\\\\\\",\\\\\\"测试3\\\\\\"\\"
+}"
+`;
+
+exports[`多语言信息收集插件 相互重名编码 1`] = `
+"{
+  \\"webpack-plugin-i18n-chinese/dist/static/__tmp.js\\": \\"\\",
+  \\"webpack-plugin-i18n-chinese/dist/static/intl-metadata.json\\": \\"{\\\\n  \\\\\\"i18n\\\\\\": {\\\\n    \\\\\\"oc.base.测试1\\\\\\": \\\\\\"测试2-1\\\\\\",\\\\n    \\\\\\"oc.base.测试2\\\\\\": \\\\\\"测试2-2\\\\\\",\\\\n    \\\\\\"oc.base.customer\\\\\\": \\\\\\"测试3\\\\\\"\\\\n  }\\\\n}\\"
+}"
+`;
+
+exports[`多语言信息收集插件 组件和页面 1`] = `
+"{
+  \\"webpack-plugin-i18n-chinese/dist/static/__tmp.js\\": \\"\\",
+  \\"webpack-plugin-i18n-chinese/dist/static/intl-metadata.json\\": \\"{\\\\n  \\\\\\"i18n\\\\\\": {\\\\n    \\\\\\"oc.pro.测试1-1\\\\\\": \\\\\\"测试1\\\\\\",\\\\n    \\\\\\"oc.pro.测试1-2\\\\\\": \\\\\\"测试2\\\\\\",\\\\n    \\\\\\"oc.pro.customer\\\\\\": \\\\\\"测试3\\\\\\",\\\\n    \\\\\\"oc.base.测试1-1\\\\\\": \\\\\\"测试1\\\\\\",\\\\n    \\\\\\"oc.base.测试1-2\\\\\\": \\\\\\"测试2\\\\\\",\\\\n    \\\\\\"oc.base.customer\\\\\\": \\\\\\"测试3\\\\\\"\\\\n  }\\\\n}\\"
+}"
+`;
+
+exports[`多语言信息收集插件 组件覆盖页面编码 1`] = `
+"{
+  \\"webpack-plugin-i18n-chinese/dist/static/__tmp.js\\": \\"\\",
+  \\"webpack-plugin-i18n-chinese/dist/static/intl-metadata.json\\": \\"{\\\\n  \\\\\\"i18n\\\\\\": {\\\\n    \\\\\\"oc.pro.测试1-1\\\\\\": \\\\\\"测试1\\\\\\",\\\\n    \\\\\\"oc.pro.测试1-2\\\\\\": \\\\\\"测试2\\\\\\",\\\\n    \\\\\\"oc.base.customer\\\\\\": \\\\\\"测试3\\\\\\",\\\\n    \\\\\\"oc.base.测试1-1\\\\\\": \\\\\\"测试1\\\\\\",\\\\n    \\\\\\"oc.base.测试1-2\\\\\\": \\\\\\"测试2\\\\\\"\\\\n  }\\\\n}\\"
+}"
+`;
+
+exports[`多语言信息收集插件 统一加一个前缀 1`] = `
+"{
+  \\"webpack-plugin-i18n-chinese/dist/static/__tmp.js\\": \\"\\",
+  \\"webpack-plugin-i18n-chinese/dist/static/intl-metadata.json\\": \\"{\\\\n  \\\\\\"i18n\\\\\\": {\\\\n    \\\\\\"prefix.oc.base.测试1-1\\\\\\": \\\\\\"测试1\\\\\\",\\\\n    \\\\\\"prefix.oc.base.测试1-2\\\\\\": \\\\\\"测试2\\\\\\",\\\\n    \\\\\\"prefix.oc.base.customer\\\\\\": \\\\\\"测试3\\\\\\"\\\\n  }\\\\n}\\"
+}"
+`;

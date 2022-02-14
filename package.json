@@ -1,0 +1,50 @@
+{
+  "name": "webpack-plugin-i18n-chinese",
+  "version": "0.1.0",
+  "description": "多语言元数据收集webpack插件",
+  "main": "lib/index.js",
+  "files": [
+    "src/",
+    "lib/",
+    "!/**/__test__/",
+    "README.md",
+    "index.js",
+    "package.json"
+  ],
+  "scripts": {
+    "lint": "eslint lib/",
+    "test": "jest",
+    "prepub": "npm run lint && npm run test",
+    "pub": "npm publish --registry=http://nexus.saas.hand-china.com/repository/oc-private-npm-source/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haimeiyou.git"
+  },
+  "keywords": [
+    "webpack",
+    "i18n"
+  ],
+  "author": "joyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haimeiyou"
+  },
+  "homepage": "https://github.com/haimeiyou#readme",
+  "dependencies": {
+    "babel-plugin-i18n-chinese": "^0.5.4",
+    "lodash": "^4.17.15",
+    "mkdirp": "^1.0.4",
+    "mz": "^2.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "jest": "^24.9.0",
+    "jest-plugin-mzfs": "^0.1.0"
+  },
+  "gitHead": "91c6d0cf53a2e751e7cec78f1a631a80579cfc31"
+}
